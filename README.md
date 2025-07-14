@@ -1,6 +1,15 @@
-# springboot-tasks-api
+# Spring Boot Task API
 
-🛠️ Simple REST API to create, update, and delete tasks.
+A basic task management REST API using Spring Boot.
 
-Started on: July 14, 2025  
-By: Shashi Kanth Doddi
+## Entity: Task
+- id (int)
+- title (String)
+- description (String)
+- status (String) — e.g., "pending", "done"
+
+## Planned Endpoints
+- GET /tasks
+- POST /tasks
+- PUT /tasks/{id}
+- DELETE /tasks/{id}

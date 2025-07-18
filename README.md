@@ -6,7 +6,7 @@ A basic task management REST API using Spring Boot.
 - id (int)
 - title (String)
 - description (String)
-- status (String) — e.g., "pending", "done"
+- status (String) — e.g., "pending", "done".
 
 ## Planned Endpoints
 - GET /tasks
